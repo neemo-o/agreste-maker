@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Agreste Maker</title>
+<meta name="description" content="Portal de projetos acadêmicos do Agreste Maker.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <nav class="topo">
+    <span class="logo">AM</span>
+    <a href="#projetos">Projetos</a>
+    <a href="#sobre">Sobre</a>
+  </nav>
+  <div class="hero">
+    <div>
+      <h1 class="glitch" data-text="Agreste Maker">Agreste Maker</h1>
+      <p class="tagline"><span id="digita"></span><i class="cursor" aria-hidden="true"></i></p>
+      <a class="btn start" href="#projetos">Press start</a>
+      <div class="hud" id="hud" aria-label="Resumo do portal"></div>
+    </div>
+    <div class="mascote" aria-hidden="true">
+      <i class="moeda" style="--x:8%;--y:12%;--d:0s"></i>
+      <i class="moeda" style="--x:88%;--y:28%;--d:.8s"></i>
+      <i class="moeda" style="--x:14%;--y:62%;--d:1.6s"></i>
+      <svg viewBox="0 0 17 24" shape-rendering="crispEdges">
+        <rect x="6" y="3" width="5" height="19" fill="#12b76a"/>
+        <rect x="2" y="9" width="2" height="6" fill="#12b76a"/><rect x="2" y="14" width="4" height="2" fill="#12b76a"/>
+        <rect x="13" y="7" width="2" height="7" fill="#12b76a"/><rect x="11" y="12" width="4" height="2" fill="#12b76a"/>
+        <rect x="8" y="3" width="1" height="19" fill="#5fe3a1"/>
+        <rect x="7" y="9" width="1" height="2" fill="#15123b"/><rect x="9" y="9" width="1" height="2" fill="#15123b"/>
+        <rect x="8" y="13" width="1" height="1" fill="#15123b"/>
+        <rect x="7" y="1" width="3" height="2" fill="#ff3d8d"/><rect x="8" y="0" width="1" height="1" fill="#ffc61a"/>
+        <rect x="0" y="22" width="17" height="2" fill="#ffc61a"/>
+      </svg>
+    </div>
+  </div>
+</header>
+
+<div class="ticker" id="ticker" aria-hidden="true"><span></span><span></span></div>
+
+<main id="projetos">
+  <h2>Projetos</h2>
+  <div class="filtros" id="filtros" role="group" aria-label="Filtrar por categoria"></div>
+  <p class="contagem" id="contagem" aria-live="polite"></p>
+  <div class="grade" id="grade"></div>
+</main>
+
+<footer id="sobre">
+  <p>Agreste Maker: ciência, tecnologia e criatividade feitas no agreste.</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
