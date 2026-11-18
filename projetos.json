@@ -33,7 +33,7 @@
           "url": "https://github.com/neemo-o/codetables-medieval"
         },
         {
-          "rotulo": "Manual (PDF)",
+          "rotulo": "Manual",
           "url": "https://github.com/neemo-o/codetables-medieval/blob/main/codetables_manual/CodeTables.pdf"
         }
       ]
@@ -43,17 +43,31 @@
       "categoria": "Eletrônica e IoT",
       "curso": "Engenharia da Computação",
       "ano": 2026,
-      "autores": ["Nome Sobrenome", "Outra Pessoa"],
+      "autores": [
+        "Nome Sobrenome",
+        "Outra Pessoa"
+      ],
       "descricao": "Projeto de exemplo: substitua este texto pela descrição do seu projeto. Aqui você explica o problema, a solução e os resultados.",
-      "tecnologias": ["Arduino", "C++", "Sensores", "IoT"],
+      "tecnologias": [
+        "Arduino",
+        "C++",
+        "Sensores",
+        "IoT"
+      ],
       "imagens": [
         "imagens/placeholder-1.svg",
         "imagens/placeholder-2.svg",
         "imagens/placeholder-3.svg"
       ],
       "links": [
-        { "rotulo": "Repositório", "url": "#" },
-        { "rotulo": "Artigo", "url": "#" }
+        {
+          "rotulo": "Repositório",
+          "url": "#"
+        },
+        {
+          "rotulo": "Artigo",
+          "url": "#"
+        }
       ]
     }
   ]
