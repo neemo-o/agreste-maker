@@ -4,6 +4,41 @@
   },
   "projetos": [
     {
+      "titulo": "CodeTables: Medieval",
+      "categoria": "Jogos Educacionais",
+      "curso": "Engenharia de Software",
+      "ano": 2026,
+      "autores": [
+        "Emanuel Gomes Bispo",
+        "Neemias Vasconcelos",
+        "Marco Antonio Bomfim",
+        "Gustavo Ramon Ribeiro"
+      ],
+      "descricao": "Jogo de tabuleiro estratégico 11x7 com peças e obstáculos impressos em 3D que ensina lógica de programação por blocos físicos, combinando sequências de comandos, cartas e três modos competitivos.",
+      "tecnologias": [
+        "Impressão 3D",
+        "Programação Desplugada",
+        "Modelagem 3D",
+        "Cartas Ilustradas",
+        "Game Design"
+      ],
+      "imagens": [
+        "imagens/code_tables/tabuleiro.jpeg",
+        "imagens/code_tables/costascarta_banner.jpg",
+        "imagens/code_tables/fortaleza.jpeg"
+      ],
+      "links": [
+        {
+          "rotulo": "Repositório",
+          "url": "https://github.com/neemo-o/codetables-medieval"
+        },
+        {
+          "rotulo": "Manual (PDF)",
+          "url": "https://github.com/neemo-o/codetables-medieval/blob/main/codetables_manual/CodeTables.pdf"
+        }
+      ]
+    },
+    {
       "titulo": "Estação Meteorológica do Sertão",
       "categoria": "Eletrônica e IoT",
       "curso": "Engenharia da Computação",

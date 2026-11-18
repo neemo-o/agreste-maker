@@ -13,16 +13,17 @@
 <body>
 <header>
   <nav class="topo">
-    <img src="imagens/uneb.png" alt="UNEB" class="logo">
+    <img src="imagens/uneb.png" alt="UNEB" class="logo" width="64" height="64">
     <a href="#projetos">Projetos</a>
     <a href="#sobre">Sobre</a>
+    <button type="button" class="pausa" id="pausa" aria-pressed="false" aria-label="Pausar animações">Pausar</button>
   </nav>
   <div class="hero">
     <div>
       <h1 class="glitch" data-text="Agreste Maker">Agreste Maker</h1>
       <p class="tagline"><span id="digita"></span><i class="cursor" aria-hidden="true"></i></p>
       <a class="btn start" href="#projetos">Press start</a>
-      <div class="hud" id="hud" aria-label="Resumo do portal"></div>
+      <ul class="hud" id="hud"></ul>
     </div>
     <div class="mascote" aria-hidden="true">
       <i class="moeda" style="--x:8%;--y:12%;--d:0s"></i>
@@ -54,6 +55,6 @@
 <footer id="sobre">
   <p>Agreste Maker: ciência, tecnologia e criatividade feitas no agreste.</p>
 </footer>
-<script src="script.js"></script>
+<script defer src="script.js"></script>
 </body>
 </html>
