@@ -173,3 +173,7 @@ async function iniciar() {
   }
 }
 iniciar();
+const topo = document.querySelector('.topo');
+window.addEventListener('scroll', () => {
+  topo.classList.toggle('scrolled', window.scrollY > 10);
+}, { passive: true });

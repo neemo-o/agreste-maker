@@ -2,16 +2,18 @@
 --px:'Press Start 2P','Courier New',monospace;--txt:'Rajdhani','Trebuchet MS',system-ui,sans-serif}
 *{box-sizing:border-box;margin:0}
 html{scroll-behavior:smooth}
-body{font:600 1.15rem/1.45 var(--txt);color:var(--ink);background:var(--bg);
+body{font:600 1.15rem/1.45 var(--txt);color:var(--ink);background:var(--bg);padding-top:100px;
 background-image:linear-gradient(rgba(21,18,59,.07) 1px,transparent 1px),linear-gradient(90deg,rgba(21,18,59,.07) 1px,transparent 1px);background-size:32px 32px}
 a{color:inherit}
+:target{scroll-margin-top:110px}
 :focus-visible{outline:3px solid var(--violeta);outline-offset:3px}
 
 /* topo */
-.topo{display:flex;gap:1.2rem;align-items:center;padding:1rem clamp(1rem,5vw,4rem)}
+.topo{position:fixed;top:0;left:0;right:0;z-index:20;display:flex;gap:1.2rem;align-items:center;padding:1rem clamp(1rem,5vw,4rem);background:#eaf6ff73;transition:background-color .3s ease}
+.topo.scrolled{background:#eaf6ff}
 .topo a{font-weight:700;text-decoration:none;border-bottom:3px solid transparent}
 .topo a:hover{border-color:var(--rosa)}
-.logo{font:.8rem var(--px);background:var(--ink);color:var(--sol);padding:.6rem .7rem;margin-right:auto;box-shadow:4px 4px 0 var(--violeta)}
+.logo{width:64px;height:64px;object-fit:contain;display:block;background:var(--ink);padding:.4rem .5rem;margin-right:auto;box-shadow:4px 4px 0 var(--violeta)}
 
 /* hero */
 .hero{display:grid;grid-template-columns:1.5fr 1fr;gap:2rem;align-items:center;max-width:1200px;margin:auto;padding:2rem clamp(1rem,5vw,4rem) 3.5rem}
